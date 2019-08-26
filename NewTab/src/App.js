@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
 
     return (
-    <div>
+    <div className="main">
     {
        this.state.tree.map((site , i) => {
           return(<SiteGroup key={i} site={site} className={"mainGroup"+i}/>)
