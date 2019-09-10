@@ -14,7 +14,7 @@ class Cal extends React.Component {
   parseDate(d){
     d = d ? d : new Date() ;
     let date = d.getDate() ;
-    let month = d.getMonth() ;
+    let month = d.getMonth() + 1 ;
     month = (month < 10) ? "0"+month : month ;
     let year = d.getFullYear() ;
     let str = year + "/" + date + "" + month + "" + year ; 
