@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Hacker Tab",
+  "author": "Hu Chen",
+  "version": "1.0.1",
+  "description": "Replace new tab screen with GitHub trending projects.",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"  , "https://www.tamildailycalendar.com/"
+  ]
+}
